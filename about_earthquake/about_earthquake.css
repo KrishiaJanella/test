@@ -1,0 +1,491 @@
+/* navigation bar */
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #81535D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+#navButtons{
+    display: flex;
+    margin-top: 15px;
+}
+
+#navButtons a:hover{
+    color: #FF9C00;
+}
+.reg a{
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #F6EED6;
+    font-family: "Barlow";                                 
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.hotline{
+    margin-right: 50px;
+}
+.hotline a{
+    
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F6EED6;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #81535D;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.logo{
+    display: flex;
+    
+}
+.logo h1, .logo a{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#F6EED6;
+    line-height: 10px;
+    text-decoration: none;
+    
+}
+
+/*end  navigation bar */
+.colored{
+    color: #FF9C00;
+}
+
+.about{
+    background-color: #F6EED6;
+    margin-top: 0px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    display: flex;
+    
+}
+
+.banner img{
+    height: 100vh;
+    width: 60%;
+}
+
+.body{
+    width: 200px;
+}
+
+.NZcont{
+    display: flex; 
+    width: 200vh;
+    
+}
+
+
+.cause{
+    display: flex; 
+
+}
+.cause img{
+    width: auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+
+.Header{
+    color:#ffffff;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    background-color: #FF9C00;
+    border-radius: 10px;
+
+}
+
+.Header2{
+    color:#ffffff;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+    font-weight: 500;
+    
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 150px;
+    background-color: #FF9C00;
+    border-radius: 10px;
+
+}
+.content{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin: 45px 0 45px 45px;
+    line-height: 20px;
+    text-align: left;
+    width: fit-content;
+    
+
+    
+
+
+}
+.content2{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #ffffff;
+    margin: 45px 0 45px 150px;
+    line-height: 20px;
+    text-align: justify;
+    width: fit-content;
+    
+
+    
+
+
+}
+
+.Header1{
+    color:#ffffff;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+    font-weight: 500;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    background-color: #FF9C00;
+    border-radius: 10px;
+
+    
+
+}
+.content1{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin: 45px 150px 45px 0; 
+    line-height: 20px;
+    text-align: justify;
+    
+
+}
+
+.page2{
+    margin-top: 0px;
+    background-image: url('assets/bg.png');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+    background-attachment: fixed;
+}
+
+
+.page3{
+    margin-top: 0px;
+    
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+    background-size: center;
+}
+
+.vertical{
+    border-left: solid 4px #ffffff;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.quote{
+    display: flex;
+}
+
+.quote p{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #fffffe;
+    margin-top: 10px;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 20%;
+    font-style: italic;
+}
+
+.comment{
+    font-family: "Barlow";
+    font-size: 10px;
+    color: #fffffe;
+    margin-top: 20px;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+.contadditonal{
+    width: 500px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.contadditonal a{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin-top: 10px;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 20%;
+}
+
+.headAS{
+    background-color: #FF9C00;
+    border-radius: 10px 10px 0 0;
+}
+
+.headAS h1{
+    color: #ffffff;
+    font-family: "Barlow";
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.footer{
+    margin-top: 0px;
+    background-image: url('../../assets/28.png');
+    background-attachment: fixed;
+    width: 100%;
+    height:60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.footer_logo img{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 850px;
+    width: 150px; 
+    height: 150px;
+}
+
+.footer_title p{
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 800px;
+    margin-top: 200px;
+}
+
+.footer_hotline a{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    text-decoration: none;
+    margin-left: 820px;
+    margin-top: 260px;
+    color: #F6EED6;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer_hotline a:hover{
+    color: #81535D;
+}
+
+.follow p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 460px;
+    margin-top: 170px;
+}
+
+.follow_links{
+    position: absolute;
+    margin-left:380px;
+    margin-top: 200px;
+}
+.follow_links a{
+    margin-left: 60px;
+}
+.follow_links img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.right_footer{
+    margin-left: 60px;
+}
+
+
+.mid_footer{
+    margin-left: 60px;
+
+}
+
+.left_icons{
+    position: absolute;
+    margin-left:10px;
+    margin-top: 70px;
+}
+
+.left_icons img{
+    position: absolute;
+    opacity: 1;
+}
+
+.left_footer{
+    margin-left: 20px;
+}
+
+.left_text p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #F6EED6;
+}
+.left_text{
+    margin-left: 70px;
+}
+
+
+.home_about a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 250px;
+    letter-spacing: 2px;
+}
+
+
+.disasters_contact a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 215px;
+    letter-spacing: 2px;
+}
+
+
+
+
+#slideshow {
+  text-align: left;
+  overflow: hidden;
+  height: 500px;
+  width: 1500px;
+  margin-top: 80px;
+  
+  
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) img{
+  width: 100%;
+  height: 100%;
+}
+
+.slide:nth-child(2) img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide:nth-child(3) img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide:nth-child(4) img{
+  width: 100%;
+  height: 100%;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
